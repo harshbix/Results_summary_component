@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Candal&family=Hanken+Grotesk:wght@300&family=Lato&family=Montserrat:wght@500&family=Open+Sans:wght@500&family=Outfit&family=Poppins:wght@500;600&display=swap');
+*
+{
+    font-family:'Hanken Grotesk', sans-serif;;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  body
+  {
+    padding: 2em;
+  }
+p
+{
+    font-size: 18px;
+}
+h5
+{
+  color:  hsl(241, 100%, 89%);
+}
+#container
+{
+    height: 15em;
+}
+#coloured
+{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+}
+section
+{
+    padding: 1.3em 5em;
+    border-radius: 15px;
+}
+.box
+{
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    transform: translateX(50px);
+}
